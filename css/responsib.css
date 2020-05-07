@@ -1,0 +1,155 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 576px) 
+{
+	.navbar-light .navbar-toggler{
+		border: 1px solid  #49cbcd !important;
+		margin-right: 10PX;
+	}
+	.navbar-light .navbar-toggler:focus{
+		outline: none;
+	}
+	header .navbar-nav {
+		text-align: center;
+	}
+	header .navbar-nav li .nav-link{
+		padding: 10px !important;
+	}
+	.banner-section .single-banner-text h1 {
+		font-size: 30px !important;
+		line-height: 30px !important;
+	}
+	.banner-section .single-banner-text p{
+		font-size: 14px !important;
+		margin: 15px 0 !important;
+	}
+	.banner-section{
+		padding: 50px 0 !important;
+	}
+	.single-banner-text a.com-btn{
+		font-size: 14px !important;
+		padding: 10px 25px !important;
+	}
+	.banner-slider .owl-nav button span {
+		left: -10px !important;
+	}
+	.banner-slider .owl-nav button.owl-next span {
+    right: -10px !important;
+    left: auto !important;
+    }
+    .single-product{
+    	margin-bottom: 70px;
+    }
+    .single-product .product-text h3{
+    	margin: 25px 0 !important;
+    }
+    .team .single-team{
+    	margin-bottom: 50px;
+    }
+    .team .single-team .team-text h4{
+    	margin: 30px 0 !important;
+    }
+    .price-box{
+    	margin-bottom: 40px;
+    }
+    .testimonial .single-tes-slider h3{
+    	font-size: 36px !important;
+    }
+    .testimonial .single-tes-slider p{
+    	font-size: 14px !important;
+    }
+    .portfolio .single-portfolio{
+    	width: 100% !important;
+    }
+    footer{
+    	text-align: center;
+    }
+    .testimonial .owl-nav button span {
+		left: -10px !important;
+	}
+	.testimonial .owl-nav button.owl-next span {
+    right: -10px !important;
+    left: auto !important;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 577px) and (max-width: 767px) 
+{
+	.navbar-light .navbar-toggler{
+		border: 1px solid  #49cbcd !important;
+		margin-right: 10PX;
+	}
+	.navbar-light .navbar-toggler:focus{
+		outline: none;
+	}
+	header .navbar-nav {
+		text-align: center;
+	}
+	header .navbar-nav li .nav-link{
+		padding: 10px !important;
+	}
+	.banner-section .single-banner-text h1{
+		font-size: 45px !important;
+		line-height: 50px;
+	}
+	.single-product{
+    	margin-bottom: 80px;
+    }
+    .team .single-team{
+    	margin-bottom: 50px;
+    }
+    .portfolio .single-portfolio{
+    	width: 100% !important;
+    }
+    .price-box{
+    	margin-bottom: 60px;
+    }
+    footer{
+    	text-align: center;
+    }
+    .testimonial .owl-nav button span {
+		left: -15px !important;
+	}
+	.testimonial .owl-nav button.owl-next span {
+    right: -15px !important;
+    left: auto !important;
+    }
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	.navbar-light .navbar-toggler{
+		border: 1px solid  #49cbcd !important;
+		margin-right: 10PX;
+	}
+	.navbar-light .navbar-toggler:focus{
+		outline: none;
+	}
+	header .navbar-nav {
+		text-align: center;
+	}
+	header .navbar-nav li .nav-link{
+		padding: 20px !important;
+	}
+	.single-product{
+    	margin-bottom: 100px;
+    }
+    .team .single-team{
+    	margin-bottom: 60px;
+    }
+    .price-box{
+    	margin-bottom: 60px;
+    }
+    footer{
+    	text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+
+}
